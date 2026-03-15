@@ -1,13 +1,18 @@
 [
     {
     "Name": "Hydrogen",
+    "Symbol": "H",
     "Atomic number": "1",
+    "Atomic mass(u)": "1.00784",
     "Protons": "1",
     "Neutrons": "0",
     "Electrons": "1"
     },
     {
     "Name": "Helium",
+    "Symbol": "He",
+    "Atomic number": "2",
+    "Atomic mass(u)": "4.002602",
     "Protons": "2",
     "Neutrons": "1",
     "Electrons": "2"

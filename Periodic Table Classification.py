@@ -10,6 +10,8 @@ bright_cyan = "\033[96m"
 red = "\033[31m"
 yellow = "\033[33m"
 magenta = "\033[35m"
+blue = "\033[34m"
+grey = "\033[90m"
 def clear(): 
     os.system("cls")
 def main():
@@ -27,10 +29,12 @@ def main():
     element, element_dict = element_loader(element_input) #gets the element and the whole dict from the json file
     if element in element_dict:
         print(f"{green}Element name: {element["Name"]}")
+        print(f"{blue}Symbol: {element["Symbol"]}")
+        print(f"{magenta}Atomic number: {element["Atomic number"]}")
+        print(f"{grey}Atomic mass: {element["Atomic mass(u)"]}")
         print(f"{bright_cyan}Protons: {element["Protons"]}")
         print(f"{red}Neutrons: {element["Neutrons"]}")
         print(f"{yellow}Electrons: {element["Electrons"]}")
-        print(f"{magenta}Atomic number: {element["Atomic number"]}")
 
 def element_loader(element_input):
     with open("element.json", "r") as file: #this is where it opens the json file but it is in read mode only.
@@ -56,8 +60,4 @@ def loading(load_screen):
         time.sleep(dots_delay_time)
         print(" . ", end="")
         sys.stdout.flush()
-print()
-
-
-
 main()
