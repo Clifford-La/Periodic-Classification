@@ -1,16 +1,36 @@
 #Periodic Table element classification
+from tqdm import tqdm
 import json
-import math
+import sys
 import time
 import datetime
+import os
 green = "\033[32m"
+bright_cyan = "\033[96m"
+red = "\033[31m"
+yellow = "\033[33m"
+magenta = "\033[35m"
+def clear(): 
+    os.system("cls")
 def main():
+    loading("Loading")
+    with tqdm(total=100) as pbar:
+        for i in range(25):
+            time.sleep(0.1)
+            pbar.update(4)
+    print()
+    clear()
+
     element_input = input("Would you like to look for an element? If not then enter '9' to quit. ").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
     if element_input == '9': #user can end program key9
         turning_off()
     element, element_dict = element_loader(element_input) #gets the element and the whole dict from the json file
     if element in element_dict:
-        print(f"{green}Element: {element}")
+        print(f"{green}Element name: {element["Name"]}")
+        print(f"{bright_cyan}Protons: {element["Protons"]}")
+        print(f"{red}Neutrons: {element["Neutrons"]}")
+        print(f"{yellow}Electrons: {element["Electrons"]}")
+        print(f"{magenta}Atomic number: {element["Atomic number"]}")
 
 def element_loader(element_input):
     with open("element.json", "r") as file: #this is where it opens the json file but it is in read mode only.
@@ -27,5 +47,17 @@ def turning_off():
     print(f'Current time: {today.time()}')
     print(f'Current date: {today.date()}')
     quit()
+
+def loading(load_screen):
+    print(load_screen, end="")
+    dots_delay_time = 0.5
+
+    for i in range(5):
+        time.sleep(dots_delay_time)
+        print(" . ", end="")
+        sys.stdout.flush()
+print()
+
+
 
 main()

@@ -1,14 +1,15 @@
 [
     {
     "Name": "Hydrogen",
+    "Atomic number": "1",
     "Protons": "1",
     "Neutrons": "0",
-    "Eletrons": "1"
+    "Electrons": "1"
     },
     {
     "Name": "Helium",
     "Protons": "2",
     "Neutrons": "1",
-    "Eletrons": "2"
+    "Electrons": "2"
     }
 ]
