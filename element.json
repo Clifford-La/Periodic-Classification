@@ -18,13 +18,13 @@
     "Electrons": "2"
     },
     {
-    "Name": "Hydrogen",
-    "Symbol": "H",
-    "Atomic number": "1",
+    "Name": "Lithium",
+    "Symbol": "Li",
+    "Atomic number": "3",
     "Atomic mass(u)": "1.00784",
-    "Protons": "1",
+    "Protons": "3",
     "Neutrons": "0",
-    "Electrons": "1"
+    "Electrons": "3"
     },
     {
     "Name": "Hydrogen",
