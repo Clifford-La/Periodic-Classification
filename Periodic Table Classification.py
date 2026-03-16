@@ -1,10 +1,8 @@
 #Periodic Table element classification
 from tqdm import tqdm
-import json
-import sys
-import time
-import datetime
-import os
+from zoneinfo import ZoneInfo
+import json, sys, time, datetime, os, utc
+
 green = "\033[32m"
 bright_cyan = "\033[96m"
 red = "\033[31m"
@@ -12,8 +10,10 @@ yellow = "\033[33m"
 magenta = "\033[35m"
 blue = "\033[34m"
 grey = "\033[90m"
+
 def clear(): 
-    os.system("cls")
+    os.system("clear")
+
 def main():
     loading("Loading")
     with tqdm(total=100) as pbar:
@@ -22,7 +22,7 @@ def main():
             pbar.update(4)
     print()
     clear()
-
+    
     element_input = input("Would you like to look for an element? If not then enter '9' to quit. ").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
     if element_input == '9': #user can end program key9
         turning_off()
@@ -36,18 +36,19 @@ def main():
         print(f"{red}Neutrons: {element["Neutrons"]}")
         print(f"{yellow}Electrons: {element["Electrons"]}")
 
+
 def element_loader(element_input):
     with open("element.json", "r") as file: #this is where it opens the json file but it is in read mode only.
         element_dict = json.load(file)
     for element in element_dict:
         if element['Name'] == element_input: #if i enter hydrogen then it will return the element hydrogen and the rest of the information from the json file
             return element, element_dict 
-        
+
+
 def turning_off():
     time.sleep(1.5)
+    print(f"Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {green}💧︎")
     today = datetime.datetime.now()
-    print("Periodic Table Classification out! Stay noble like the gases. ")
-    print(today)
     print(f'Current time: {today.time()}')
     print(f'Current date: {today.date()}')
     quit()
