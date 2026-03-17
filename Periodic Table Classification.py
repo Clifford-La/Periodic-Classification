@@ -2,7 +2,7 @@
 from tqdm import tqdm
 from zoneinfo import ZoneInfo
 import json, sys, time, datetime, os, utc
-
+RESET = "\033[0m"
 green = "\033[32m"
 bright_cyan = "\033[96m"
 red = "\033[31m"
@@ -17,28 +17,29 @@ def clear():
 def main():
     loading("Loading")
     with tqdm(total=100) as pbar:
-        for i in range(25):
+        for i in range(1):
             time.sleep(0.1)
-            pbar.update(4)
+            pbar.update(100)
     print()
     clear()
     
-    element_input = input("Would you like to look for an element? If not then enter '9' to quit. ").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
-    if element_input == '9': #user can end program key9
-        turning_off()
-    element, element_dict = element_loader(element_input) #gets the element and the whole dict from the json file
-    if element in element_dict:
-        print(f"{green}Element name: {element["Name"]}")
-        print(f"{blue}Symbol: {element["Symbol"]}")
-        print(f"{magenta}Atomic number: {element["Atomic number"]}")
-        print(f"{grey}Atomic mass: {element["Atomic mass(u)"]}")
-        print(f"{bright_cyan}Protons: {element["Protons"]}")
-        print(f"{red}Neutrons: {element["Neutrons"]}")
-        print(f"{yellow}Electrons: {element["Electrons"]}")
+    while True:
+        element_input = input("Would you like to look for an element? If not then enter '9' to quit. ").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
+        if element_input == '9': #user can end program key9
+            turning_off()
+        element, element_dict = element_loader(element_input) #gets the element and the whole dict from the json file
+        if element in element_dict:
+            print(f"{green}Element name: {element["Name"]}")
+            print(f"{blue}Symbol: {element["Symbol"]}")
+            print(f"{magenta}Atomic number: {element["Atomic number"]}")
+            print(f"{grey}Atomic mass: {element["Atomic mass(u)"]}")
+            print(f"{bright_cyan}Protons: {element["Protons"]}")
+            print(f"{red}Neutrons: {element["Neutrons"]}")
+            print(f"{yellow}Electrons: {element["Electrons"]}{RESET}")
 
 
 def element_loader(element_input):
-    with open("element.json", "r") as file: #this is where it opens the json file but it is in read mode only.
+    with open("element_full.json", "r") as file: #this is where it opens the json file but it is in read mode only.
         element_dict = json.load(file)
     for element in element_dict:
         if element['Name'] == element_input: #if i enter hydrogen then it will return the element hydrogen and the rest of the information from the json file
@@ -47,7 +48,7 @@ def element_loader(element_input):
 
 def turning_off():
     time.sleep(1.5)
-    print(f"Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {green}💧︎")
+    print(f"Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {green}")
     today = datetime.datetime.now()
     print(f'Current time: {today.time()}')
     print(f'Current date: {today.date()}')

@@ -1,0 +1,1064 @@
+[
+    {
+        "Name": "Hydrogen",
+        "Symbol": "H",
+        "Atomic number": "1",
+        "Atomic mass(u)": "1.008",
+        "Protons": "1",
+        "Neutrons": "0",
+        "Electrons": "1"
+    },
+    {
+        "Name": "Helium",
+        "Symbol": "He",
+        "Atomic number": "2",
+        "Atomic mass(u)": "4.0026",
+        "Protons": "2",
+        "Neutrons": "2",
+        "Electrons": "2"
+    },
+    {
+        "Name": "Lithium",
+        "Symbol": "Li",
+        "Atomic number": "3",
+        "Atomic mass(u)": "6.94",
+        "Protons": "3",
+        "Neutrons": "4",
+        "Electrons": "3"
+    },
+    {
+        "Name": "Beryllium",
+        "Symbol": "Be",
+        "Atomic number": "4",
+        "Atomic mass(u)": "9.0122",
+        "Protons": "4",
+        "Neutrons": "5",
+        "Electrons": "4"
+    },
+    {
+        "Name": "Boron",
+        "Symbol": "B",
+        "Atomic number": "5",
+        "Atomic mass(u)": "10.81",
+        "Protons": "5",
+        "Neutrons": "6",
+        "Electrons": "5"
+    },
+    {
+        "Name": "Carbon",
+        "Symbol": "C",
+        "Atomic number": "6",
+        "Atomic mass(u)": "12.011",
+        "Protons": "6",
+        "Neutrons": "6",
+        "Electrons": "6"
+    },
+    {
+        "Name": "Nitrogen",
+        "Symbol": "N",
+        "Atomic number": "7",
+        "Atomic mass(u)": "14.007",
+        "Protons": "7",
+        "Neutrons": "7",
+        "Electrons": "7"
+    },
+    {
+        "Name": "Oxygen",
+        "Symbol": "O",
+        "Atomic number": "8",
+        "Atomic mass(u)": "15.999",
+        "Protons": "8",
+        "Neutrons": "8",
+        "Electrons": "8"
+    },
+    {
+        "Name": "Fluorine",
+        "Symbol": "F",
+        "Atomic number": "9",
+        "Atomic mass(u)": "18.998",
+        "Protons": "9",
+        "Neutrons": "10",
+        "Electrons": "9"
+    },
+    {
+        "Name": "Neon",
+        "Symbol": "Ne",
+        "Atomic number": "10",
+        "Atomic mass(u)": "20.18",
+        "Protons": "10",
+        "Neutrons": "10",
+        "Electrons": "10"
+    },
+    {
+        "Name": "Sodium",
+        "Symbol": "Na",
+        "Atomic number": "11",
+        "Atomic mass(u)": "22.99",
+        "Protons": "11",
+        "Neutrons": "12",
+        "Electrons": "11"
+    },
+    {
+        "Name": "Magnesium",
+        "Symbol": "Mg",
+        "Atomic number": "12",
+        "Atomic mass(u)": "24.305",
+        "Protons": "12",
+        "Neutrons": "12",
+        "Electrons": "12"
+    },
+    {
+        "Name": "Aluminium",
+        "Symbol": "Al",
+        "Atomic number": "13",
+        "Atomic mass(u)": "26.982",
+        "Protons": "13",
+        "Neutrons": "14",
+        "Electrons": "13"
+    },
+    {
+        "Name": "Silicon",
+        "Symbol": "Si",
+        "Atomic number": "14",
+        "Atomic mass(u)": "28.085",
+        "Protons": "14",
+        "Neutrons": "14",
+        "Electrons": "14"
+    },
+    {
+        "Name": "Phosphorus",
+        "Symbol": "P",
+        "Atomic number": "15",
+        "Atomic mass(u)": "30.974",
+        "Protons": "15",
+        "Neutrons": "16",
+        "Electrons": "15"
+    },
+    {
+        "Name": "Sulfur",
+        "Symbol": "S",
+        "Atomic number": "16",
+        "Atomic mass(u)": "32.06",
+        "Protons": "16",
+        "Neutrons": "16",
+        "Electrons": "16"
+    },
+    {
+        "Name": "Chlorine",
+        "Symbol": "Cl",
+        "Atomic number": "17",
+        "Atomic mass(u)": "35.45",
+        "Protons": "17",
+        "Neutrons": "18",
+        "Electrons": "17"
+    },
+    {
+        "Name": "Argon",
+        "Symbol": "Ar",
+        "Atomic number": "18",
+        "Atomic mass(u)": "39.948",
+        "Protons": "18",
+        "Neutrons": "22",
+        "Electrons": "18"
+    },
+    {
+        "Name": "Potassium",
+        "Symbol": "K",
+        "Atomic number": "19",
+        "Atomic mass(u)": "39.098",
+        "Protons": "19",
+        "Neutrons": "20",
+        "Electrons": "19"
+    },
+    {
+        "Name": "Calcium",
+        "Symbol": "Ca",
+        "Atomic number": "20",
+        "Atomic mass(u)": "40.078",
+        "Protons": "20",
+        "Neutrons": "20",
+        "Electrons": "20"
+    },
+    {
+        "Name": "Scandium",
+        "Symbol": "Sc",
+        "Atomic number": "21",
+        "Atomic mass(u)": "44.956",
+        "Protons": "21",
+        "Neutrons": "24",
+        "Electrons": "21"
+    },
+    {
+        "Name": "Titanium",
+        "Symbol": "Ti",
+        "Atomic number": "22",
+        "Atomic mass(u)": "47.867",
+        "Protons": "22",
+        "Neutrons": "26",
+        "Electrons": "22"
+    },
+    {
+        "Name": "Vanadium",
+        "Symbol": "V",
+        "Atomic number": "23",
+        "Atomic mass(u)": "50.942",
+        "Protons": "23",
+        "Neutrons": "28",
+        "Electrons": "23"
+    },
+    {
+        "Name": "Chromium",
+        "Symbol": "Cr",
+        "Atomic number": "24",
+        "Atomic mass(u)": "51.996",
+        "Protons": "24",
+        "Neutrons": "28",
+        "Electrons": "24"
+    },
+    {
+        "Name": "Manganese",
+        "Symbol": "Mn",
+        "Atomic number": "25",
+        "Atomic mass(u)": "54.938",
+        "Protons": "25",
+        "Neutrons": "30",
+        "Electrons": "25"
+    },
+    {
+        "Name": "Iron",
+        "Symbol": "Fe",
+        "Atomic number": "26",
+        "Atomic mass(u)": "55.845",
+        "Protons": "26",
+        "Neutrons": "30",
+        "Electrons": "26"
+    },
+    {
+        "Name": "Cobalt",
+        "Symbol": "Co",
+        "Atomic number": "27",
+        "Atomic mass(u)": "58.933",
+        "Protons": "27",
+        "Neutrons": "32",
+        "Electrons": "27"
+    },
+    {
+        "Name": "Nickel",
+        "Symbol": "Ni",
+        "Atomic number": "28",
+        "Atomic mass(u)": "58.693",
+        "Protons": "28",
+        "Neutrons": "31",
+        "Electrons": "28"
+    },
+    {
+        "Name": "Copper",
+        "Symbol": "Cu",
+        "Atomic number": "29",
+        "Atomic mass(u)": "63.546",
+        "Protons": "29",
+        "Neutrons": "35",
+        "Electrons": "29"
+    },
+    {
+        "Name": "Zinc",
+        "Symbol": "Zn",
+        "Atomic number": "30",
+        "Atomic mass(u)": "65.38",
+        "Protons": "30",
+        "Neutrons": "35",
+        "Electrons": "30"
+    },
+    {
+        "Name": "Gallium",
+        "Symbol": "Ga",
+        "Atomic number": "31",
+        "Atomic mass(u)": "69.723",
+        "Protons": "31",
+        "Neutrons": "39",
+        "Electrons": "31"
+    },
+    {
+        "Name": "Germanium",
+        "Symbol": "Ge",
+        "Atomic number": "32",
+        "Atomic mass(u)": "72.63",
+        "Protons": "32",
+        "Neutrons": "41",
+        "Electrons": "32"
+    },
+    {
+        "Name": "Arsenic",
+        "Symbol": "As",
+        "Atomic number": "33",
+        "Atomic mass(u)": "74.922",
+        "Protons": "33",
+        "Neutrons": "42",
+        "Electrons": "33"
+    },
+    {
+        "Name": "Selenium",
+        "Symbol": "Se",
+        "Atomic number": "34",
+        "Atomic mass(u)": "78.971",
+        "Protons": "34",
+        "Neutrons": "45",
+        "Electrons": "34"
+    },
+    {
+        "Name": "Bromine",
+        "Symbol": "Br",
+        "Atomic number": "35",
+        "Atomic mass(u)": "79.904",
+        "Protons": "35",
+        "Neutrons": "45",
+        "Electrons": "35"
+    },
+    {
+        "Name": "Krypton",
+        "Symbol": "Kr",
+        "Atomic number": "36",
+        "Atomic mass(u)": "83.798",
+        "Protons": "36",
+        "Neutrons": "48",
+        "Electrons": "36"
+    },
+    {
+        "Name": "Rubidium",
+        "Symbol": "Rb",
+        "Atomic number": "37",
+        "Atomic mass(u)": "85.468",
+        "Protons": "37",
+        "Neutrons": "48",
+        "Electrons": "37"
+    },
+    {
+        "Name": "Strontium",
+        "Symbol": "Sr",
+        "Atomic number": "38",
+        "Atomic mass(u)": "87.62",
+        "Protons": "38",
+        "Neutrons": "50",
+        "Electrons": "38"
+    },
+    {
+        "Name": "Yttrium",
+        "Symbol": "Y",
+        "Atomic number": "39",
+        "Atomic mass(u)": "88.906",
+        "Protons": "39",
+        "Neutrons": "50",
+        "Electrons": "39"
+    },
+    {
+        "Name": "Zirconium",
+        "Symbol": "Zr",
+        "Atomic number": "40",
+        "Atomic mass(u)": "91.224",
+        "Protons": "40",
+        "Neutrons": "51",
+        "Electrons": "40"
+    },
+    {
+        "Name": "Niobium",
+        "Symbol": "Nb",
+        "Atomic number": "41",
+        "Atomic mass(u)": "92.906",
+        "Protons": "41",
+        "Neutrons": "52",
+        "Electrons": "41"
+    },
+    {
+        "Name": "Molybdenum",
+        "Symbol": "Mo",
+        "Atomic number": "42",
+        "Atomic mass(u)": "95.95",
+        "Protons": "42",
+        "Neutrons": "54",
+        "Electrons": "42"
+    },
+    {
+        "Name": "Technetium",
+        "Symbol": "Tc",
+        "Atomic number": "43",
+        "Atomic mass(u)": "98",
+        "Protons": "43",
+        "Neutrons": "55",
+        "Electrons": "43"
+    },
+    {
+        "Name": "Ruthenium",
+        "Symbol": "Ru",
+        "Atomic number": "44",
+        "Atomic mass(u)": "101.07",
+        "Protons": "44",
+        "Neutrons": "57",
+        "Electrons": "44"
+    },
+    {
+        "Name": "Rhodium",
+        "Symbol": "Rh",
+        "Atomic number": "45",
+        "Atomic mass(u)": "102.91",
+        "Protons": "45",
+        "Neutrons": "58",
+        "Electrons": "45"
+    },
+    {
+        "Name": "Palladium",
+        "Symbol": "Pd",
+        "Atomic number": "46",
+        "Atomic mass(u)": "106.42",
+        "Protons": "46",
+        "Neutrons": "60",
+        "Electrons": "46"
+    },
+    {
+        "Name": "Silver",
+        "Symbol": "Ag",
+        "Atomic number": "47",
+        "Atomic mass(u)": "107.87",
+        "Protons": "47",
+        "Neutrons": "61",
+        "Electrons": "47"
+    },
+    {
+        "Name": "Cadmium",
+        "Symbol": "Cd",
+        "Atomic number": "48",
+        "Atomic mass(u)": "112.41",
+        "Protons": "48",
+        "Neutrons": "64",
+        "Electrons": "48"
+    },
+    {
+        "Name": "Indium",
+        "Symbol": "In",
+        "Atomic number": "49",
+        "Atomic mass(u)": "114.82",
+        "Protons": "49",
+        "Neutrons": "66",
+        "Electrons": "49"
+    },
+    {
+        "Name": "Tin",
+        "Symbol": "Sn",
+        "Atomic number": "50",
+        "Atomic mass(u)": "118.71",
+        "Protons": "50",
+        "Neutrons": "69",
+        "Electrons": "50"
+    },
+    {
+        "Name": "Antimony",
+        "Symbol": "Sb",
+        "Atomic number": "51",
+        "Atomic mass(u)": "121.76",
+        "Protons": "51",
+        "Neutrons": "71",
+        "Electrons": "51"
+    },
+    {
+        "Name": "Tellurium",
+        "Symbol": "Te",
+        "Atomic number": "52",
+        "Atomic mass(u)": "127.6",
+        "Protons": "52",
+        "Neutrons": "76",
+        "Electrons": "52"
+    },
+    {
+        "Name": "Iodine",
+        "Symbol": "I",
+        "Atomic number": "53",
+        "Atomic mass(u)": "126.9",
+        "Protons": "53",
+        "Neutrons": "74",
+        "Electrons": "53"
+    },
+    {
+        "Name": "Xenon",
+        "Symbol": "Xe",
+        "Atomic number": "54",
+        "Atomic mass(u)": "131.29",
+        "Protons": "54",
+        "Neutrons": "77",
+        "Electrons": "54"
+    },
+    {
+        "Name": "Caesium",
+        "Symbol": "Cs",
+        "Atomic number": "55",
+        "Atomic mass(u)": "132.91",
+        "Protons": "55",
+        "Neutrons": "78",
+        "Electrons": "55"
+    },
+    {
+        "Name": "Barium",
+        "Symbol": "Ba",
+        "Atomic number": "56",
+        "Atomic mass(u)": "137.33",
+        "Protons": "56",
+        "Neutrons": "81",
+        "Electrons": "56"
+    },
+    {
+        "Name": "Lanthanum",
+        "Symbol": "La",
+        "Atomic number": "57",
+        "Atomic mass(u)": "138.91",
+        "Protons": "57",
+        "Neutrons": "82",
+        "Electrons": "57"
+    },
+    {
+        "Name": "Cerium",
+        "Symbol": "Ce",
+        "Atomic number": "58",
+        "Atomic mass(u)": "140.12",
+        "Protons": "58",
+        "Neutrons": "82",
+        "Electrons": "58"
+    },
+    {
+        "Name": "Praseodymium",
+        "Symbol": "Pr",
+        "Atomic number": "59",
+        "Atomic mass(u)": "140.91",
+        "Protons": "59",
+        "Neutrons": "82",
+        "Electrons": "59"
+    },
+    {
+        "Name": "Neodymium",
+        "Symbol": "Nd",
+        "Atomic number": "60",
+        "Atomic mass(u)": "144.24",
+        "Protons": "60",
+        "Neutrons": "84",
+        "Electrons": "60"
+    },
+    {
+        "Name": "Promethium",
+        "Symbol": "Pm",
+        "Atomic number": "61",
+        "Atomic mass(u)": "145",
+        "Protons": "61",
+        "Neutrons": "84",
+        "Electrons": "61"
+    },
+    {
+        "Name": "Samarium",
+        "Symbol": "Sm",
+        "Atomic number": "62",
+        "Atomic mass(u)": "150.36",
+        "Protons": "62",
+        "Neutrons": "88",
+        "Electrons": "62"
+    },
+    {
+        "Name": "Europium",
+        "Symbol": "Eu",
+        "Atomic number": "63",
+        "Atomic mass(u)": "151.96",
+        "Protons": "63",
+        "Neutrons": "89",
+        "Electrons": "63"
+    },
+    {
+        "Name": "Gadolinium",
+        "Symbol": "Gd",
+        "Atomic number": "64",
+        "Atomic mass(u)": "157.25",
+        "Protons": "64",
+        "Neutrons": "93",
+        "Electrons": "64"
+    },
+    {
+        "Name": "Terbium",
+        "Symbol": "Tb",
+        "Atomic number": "65",
+        "Atomic mass(u)": "158.93",
+        "Protons": "65",
+        "Neutrons": "94",
+        "Electrons": "65"
+    },
+    {
+        "Name": "Dysprosium",
+        "Symbol": "Dy",
+        "Atomic number": "66",
+        "Atomic mass(u)": "162.5",
+        "Protons": "66",
+        "Neutrons": "96",
+        "Electrons": "66"
+    },
+    {
+        "Name": "Holmium",
+        "Symbol": "Ho",
+        "Atomic number": "67",
+        "Atomic mass(u)": "164.93",
+        "Protons": "67",
+        "Neutrons": "98",
+        "Electrons": "67"
+    },
+    {
+        "Name": "Erbium",
+        "Symbol": "Er",
+        "Atomic number": "68",
+        "Atomic mass(u)": "167.26",
+        "Protons": "68",
+        "Neutrons": "99",
+        "Electrons": "68"
+    },
+    {
+        "Name": "Thulium",
+        "Symbol": "Tm",
+        "Atomic number": "69",
+        "Atomic mass(u)": "168.93",
+        "Protons": "69",
+        "Neutrons": "100",
+        "Electrons": "69"
+    },
+    {
+        "Name": "Ytterbium",
+        "Symbol": "Yb",
+        "Atomic number": "70",
+        "Atomic mass(u)": "173.05",
+        "Protons": "70",
+        "Neutrons": "103",
+        "Electrons": "70"
+    },
+    {
+        "Name": "Lutetium",
+        "Symbol": "Lu",
+        "Atomic number": "71",
+        "Atomic mass(u)": "174.97",
+        "Protons": "71",
+        "Neutrons": "104",
+        "Electrons": "71"
+    },
+    {
+        "Name": "Hafnium",
+        "Symbol": "Hf",
+        "Atomic number": "72",
+        "Atomic mass(u)": "178.49",
+        "Protons": "72",
+        "Neutrons": "106",
+        "Electrons": "72"
+    },
+    {
+        "Name": "Tantalum",
+        "Symbol": "Ta",
+        "Atomic number": "73",
+        "Atomic mass(u)": "180.95",
+        "Protons": "73",
+        "Neutrons": "108",
+        "Electrons": "73"
+    },
+    {
+        "Name": "Tungsten",
+        "Symbol": "W",
+        "Atomic number": "74",
+        "Atomic mass(u)": "183.84",
+        "Protons": "74",
+        "Neutrons": "110",
+        "Electrons": "74"
+    },
+    {
+        "Name": "Rhenium",
+        "Symbol": "Re",
+        "Atomic number": "75",
+        "Atomic mass(u)": "186.21",
+        "Protons": "75",
+        "Neutrons": "111",
+        "Electrons": "75"
+    },
+    {
+        "Name": "Osmium",
+        "Symbol": "Os",
+        "Atomic number": "76",
+        "Atomic mass(u)": "190.23",
+        "Protons": "76",
+        "Neutrons": "114",
+        "Electrons": "76"
+    },
+    {
+        "Name": "Iridium",
+        "Symbol": "Ir",
+        "Atomic number": "77",
+        "Atomic mass(u)": "192.22",
+        "Protons": "77",
+        "Neutrons": "115",
+        "Electrons": "77"
+    },
+    {
+        "Name": "Platinum",
+        "Symbol": "Pt",
+        "Atomic number": "78",
+        "Atomic mass(u)": "195.08",
+        "Protons": "78",
+        "Neutrons": "117",
+        "Electrons": "78"
+    },
+    {
+        "Name": "Gold",
+        "Symbol": "Au",
+        "Atomic number": "79",
+        "Atomic mass(u)": "196.97",
+        "Protons": "79",
+        "Neutrons": "118",
+        "Electrons": "79"
+    },
+    {
+        "Name": "Mercury",
+        "Symbol": "Hg",
+        "Atomic number": "80",
+        "Atomic mass(u)": "200.59",
+        "Protons": "80",
+        "Neutrons": "121",
+        "Electrons": "80"
+    },
+    {
+        "Name": "Thallium",
+        "Symbol": "Tl",
+        "Atomic number": "81",
+        "Atomic mass(u)": "204.38",
+        "Protons": "81",
+        "Neutrons": "123",
+        "Electrons": "81"
+    },
+    {
+        "Name": "Lead",
+        "Symbol": "Pb",
+        "Atomic number": "82",
+        "Atomic mass(u)": "207.2",
+        "Protons": "82",
+        "Neutrons": "125",
+        "Electrons": "82"
+    },
+    {
+        "Name": "Bismuth",
+        "Symbol": "Bi",
+        "Atomic number": "83",
+        "Atomic mass(u)": "208.98",
+        "Protons": "83",
+        "Neutrons": "126",
+        "Electrons": "83"
+    },
+    {
+        "Name": "Polonium",
+        "Symbol": "Po",
+        "Atomic number": "84",
+        "Atomic mass(u)": "209",
+        "Protons": "84",
+        "Neutrons": "125",
+        "Electrons": "84"
+    },
+    {
+        "Name": "Astatine",
+        "Symbol": "At",
+        "Atomic number": "85",
+        "Atomic mass(u)": "210",
+        "Protons": "85",
+        "Neutrons": "125",
+        "Electrons": "85"
+    },
+    {
+        "Name": "Radon",
+        "Symbol": "Rn",
+        "Atomic number": "86",
+        "Atomic mass(u)": "222",
+        "Protons": "86",
+        "Neutrons": "136",
+        "Electrons": "86"
+    },
+    {
+        "Name": "Francium",
+        "Symbol": "Fr",
+        "Atomic number": "87",
+        "Atomic mass(u)": "223",
+        "Protons": "87",
+        "Neutrons": "136",
+        "Electrons": "87"
+    },
+    {
+        "Name": "Radium",
+        "Symbol": "Ra",
+        "Atomic number": "88",
+        "Atomic mass(u)": "226",
+        "Protons": "88",
+        "Neutrons": "138",
+        "Electrons": "88"
+    },
+    {
+        "Name": "Actinium",
+        "Symbol": "Ac",
+        "Atomic number": "89",
+        "Atomic mass(u)": "227",
+        "Protons": "89",
+        "Neutrons": "138",
+        "Electrons": "89"
+    },
+    {
+        "Name": "Thorium",
+        "Symbol": "Th",
+        "Atomic number": "90",
+        "Atomic mass(u)": "232.04",
+        "Protons": "90",
+        "Neutrons": "142",
+        "Electrons": "90"
+    },
+    {
+        "Name": "Protactinium",
+        "Symbol": "Pa",
+        "Atomic number": "91",
+        "Atomic mass(u)": "231.04",
+        "Protons": "91",
+        "Neutrons": "140",
+        "Electrons": "91"
+    },
+    {
+        "Name": "Uranium",
+        "Symbol": "U",
+        "Atomic number": "92",
+        "Atomic mass(u)": "238.03",
+        "Protons": "92",
+        "Neutrons": "146",
+        "Electrons": "92"
+    },
+    {
+        "Name": "Neptunium",
+        "Symbol": "Np",
+        "Atomic number": "93",
+        "Atomic mass(u)": "237",
+        "Protons": "93",
+        "Neutrons": "144",
+        "Electrons": "93"
+    },
+    {
+        "Name": "Plutonium",
+        "Symbol": "Pu",
+        "Atomic number": "94",
+        "Atomic mass(u)": "244",
+        "Protons": "94",
+        "Neutrons": "150",
+        "Electrons": "94"
+    },
+    {
+        "Name": "Americium",
+        "Symbol": "Am",
+        "Atomic number": "95",
+        "Atomic mass(u)": "243",
+        "Protons": "95",
+        "Neutrons": "148",
+        "Electrons": "95"
+    },
+    {
+        "Name": "Curium",
+        "Symbol": "Cm",
+        "Atomic number": "96",
+        "Atomic mass(u)": "247",
+        "Protons": "96",
+        "Neutrons": "151",
+        "Electrons": "96"
+    },
+    {
+        "Name": "Berkelium",
+        "Symbol": "Bk",
+        "Atomic number": "97",
+        "Atomic mass(u)": "247",
+        "Protons": "97",
+        "Neutrons": "150",
+        "Electrons": "97"
+    },
+    {
+        "Name": "Californium",
+        "Symbol": "Cf",
+        "Atomic number": "98",
+        "Atomic mass(u)": "251",
+        "Protons": "98",
+        "Neutrons": "153",
+        "Electrons": "98"
+    },
+    {
+        "Name": "Einsteinium",
+        "Symbol": "Es",
+        "Atomic number": "99",
+        "Atomic mass(u)": "252",
+        "Protons": "99",
+        "Neutrons": "153",
+        "Electrons": "99"
+    },
+    {
+        "Name": "Fermium",
+        "Symbol": "Fm",
+        "Atomic number": "100",
+        "Atomic mass(u)": "257",
+        "Protons": "100",
+        "Neutrons": "157",
+        "Electrons": "100"
+    },
+    {
+        "Name": "Mendelevium",
+        "Symbol": "Md",
+        "Atomic number": "101",
+        "Atomic mass(u)": "258",
+        "Protons": "101",
+        "Neutrons": "157",
+        "Electrons": "101"
+    },
+    {
+        "Name": "Nobelium",
+        "Symbol": "No",
+        "Atomic number": "102",
+        "Atomic mass(u)": "259",
+        "Protons": "102",
+        "Neutrons": "157",
+        "Electrons": "102"
+    },
+    {
+        "Name": "Lawrencium",
+        "Symbol": "Lr",
+        "Atomic number": "103",
+        "Atomic mass(u)": "266",
+        "Protons": "103",
+        "Neutrons": "163",
+        "Electrons": "103"
+    },
+    {
+        "Name": "Rutherfordium",
+        "Symbol": "Rf",
+        "Atomic number": "104",
+        "Atomic mass(u)": "267",
+        "Protons": "104",
+        "Neutrons": "163",
+        "Electrons": "104"
+    },
+    {
+        "Name": "Dubnium",
+        "Symbol": "Db",
+        "Atomic number": "105",
+        "Atomic mass(u)": "268",
+        "Protons": "105",
+        "Neutrons": "163",
+        "Electrons": "105"
+    },
+    {
+        "Name": "Seaborgium",
+        "Symbol": "Sg",
+        "Atomic number": "106",
+        "Atomic mass(u)": "269",
+        "Protons": "106",
+        "Neutrons": "163",
+        "Electrons": "106"
+    },
+    {
+        "Name": "Bohrium",
+        "Symbol": "Bh",
+        "Atomic number": "107",
+        "Atomic mass(u)": "270",
+        "Protons": "107",
+        "Neutrons": "163",
+        "Electrons": "107"
+    },
+    {
+        "Name": "Hassium",
+        "Symbol": "Hs",
+        "Atomic number": "108",
+        "Atomic mass(u)": "277",
+        "Protons": "108",
+        "Neutrons": "169",
+        "Electrons": "108"
+    },
+    {
+        "Name": "Meitnerium",
+        "Symbol": "Mt",
+        "Atomic number": "109",
+        "Atomic mass(u)": "278",
+        "Protons": "109",
+        "Neutrons": "169",
+        "Electrons": "109"
+    },
+    {
+        "Name": "Darmstadtium",
+        "Symbol": "Ds",
+        "Atomic number": "110",
+        "Atomic mass(u)": "281",
+        "Protons": "110",
+        "Neutrons": "171",
+        "Electrons": "110"
+    },
+    {
+        "Name": "Roentgenium",
+        "Symbol": "Rg",
+        "Atomic number": "111",
+        "Atomic mass(u)": "282",
+        "Protons": "111",
+        "Neutrons": "171",
+        "Electrons": "111"
+    },
+    {
+        "Name": "Copernicium",
+        "Symbol": "Cn",
+        "Atomic number": "112",
+        "Atomic mass(u)": "285",
+        "Protons": "112",
+        "Neutrons": "173",
+        "Electrons": "112"
+    },
+    {
+        "Name": "Nihonium",
+        "Symbol": "Nh",
+        "Atomic number": "113",
+        "Atomic mass(u)": "286",
+        "Protons": "113",
+        "Neutrons": "173",
+        "Electrons": "113"
+    },
+    {
+        "Name": "Flerovium",
+        "Symbol": "Fl",
+        "Atomic number": "114",
+        "Atomic mass(u)": "289",
+        "Protons": "114",
+        "Neutrons": "175",
+        "Electrons": "114"
+    },
+    {
+        "Name": "Moscovium",
+        "Symbol": "Mc",
+        "Atomic number": "115",
+        "Atomic mass(u)": "290",
+        "Protons": "115",
+        "Neutrons": "175",
+        "Electrons": "115"
+    },
+    {
+        "Name": "Livermorium",
+        "Symbol": "Lv",
+        "Atomic number": "116",
+        "Atomic mass(u)": "293",
+        "Protons": "116",
+        "Neutrons": "177",
+        "Electrons": "116"
+    },
+    {
+        "Name": "Tennessine",
+        "Symbol": "Ts",
+        "Atomic number": "117",
+        "Atomic mass(u)": "294",
+        "Protons": "117",
+        "Neutrons": "177",
+        "Electrons": "117"
+    },
+    {
+        "Name": "Oganesson",
+        "Symbol": "Og",
+        "Atomic number": "118",
+        "Atomic mass(u)": "294",
+        "Protons": "118",
+        "Neutrons": "176",
+        "Electrons": "118"
+    }
+]
