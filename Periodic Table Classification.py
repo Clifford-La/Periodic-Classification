@@ -1,42 +1,61 @@
 #Periodic Table element classification
 from tqdm import tqdm
-from zoneinfo import ZoneInfo
-import json, sys, time, datetime, os, utc
-RESET = "\033[0m"
-green = "\033[32m"
-bright_cyan = "\033[96m"
-red = "\033[31m"
-yellow = "\033[33m"
-magenta = "\033[35m"
-blue = "\033[34m"
-grey = "\033[90m"
+import json, sys, os, utc, time
+from datetime import datetime
+import pytz
 
+Black = "\033[0;30m"
+Red = "\033[0;31m"
+Green = "\033[0;32m"
+Brown = "\033[0;33m"
+Blue = "\033[0;34m"
+Purple = "\033[0;35m"
+Cyan = "\033[0;36m"
+Light_grey = "\033[0;37m"
+Dark_grey = "\033[1;30m"
+Light_red = "\033[1;31m"
+Light_green = "\033[1;32m"
+Yellow= "\033[1;33m"
+Light_blue = "\033[1;34m"
+Light_purple = "\033[1;35m"
+Light_cyan = "\033[1;36m"
+Light_white = "\033[1;37m"
+Bold = "\033[1m"
+Faint = "\033[2m"
+Italics = "\033[3m"
+Underline = "\033[4m"
+Blink = "\033[5m"
+Negative = "\033[7m"
+Crossed = "\033[9m"
+RESET = "\033[0m"
 def clear(): 
     os.system("clear")
 
 def main():
     loading("Loading")
     with tqdm(total=100) as pbar:
-        for i in range(1):
+        for i in range(25):
             time.sleep(0.1)
-            pbar.update(100)
+            pbar.update(4)
     print()
     clear()
     
     while True:
-        element_input = input("Would you like to look for an element? If not then enter '9' to quit. ").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
+        element_input = input(f"{Light_blue}{Italics}Would you like to look for an element? If not then enter '9' to quit. {RESET}").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
         if element_input == '9': #user can end program key9
             turning_off()
         element, element_dict = element_loader(element_input) #gets the element and the whole dict from the json file
         if element in element_dict:
-            print(f"{green}Element name: {element["Name"]}")
-            print(f"{blue}Symbol: {element["Symbol"]}")
-            print(f"{magenta}Atomic number: {element["Atomic number"]}")
-            print(f"{grey}Atomic mass: {element["Atomic mass(u)"]}")
-            print(f"{bright_cyan}Protons: {element["Protons"]}")
-            print(f"{red}Neutrons: {element["Neutrons"]}")
-            print(f"{yellow}Electrons: {element["Electrons"]}{RESET}")
-
+            clear()
+            print(f"{Green}{Bold}Element name:{RESET} {element["Name"]}{RESET}")
+            print(f"{Green}{Bold}Symbol:{RESET} {element["Symbol"]}{RESET}")
+            print(f"{Purple}{Bold}Atomic number:{RESET} {element["Atomic number"]}{RESET}")
+            print(f"{Purple}{Bold}Atomic mass({RESET}u{Purple}):{RESET} {element["Atomic mass(u)"]}{RESET}")
+            print(f"{Cyan}{Bold}Protons:{RESET} {element["Protons"]}{RESET}")
+            print(f"{Red}{Bold}Neutrons:{RESET} {element["Neutrons"]}{RESET}")
+            print(f"{Yellow}{Bold}Electrons:{RESET} {element["Electrons"]}{RESET}")
+            print()
+            print()
 
 def element_loader(element_input):
     with open("element_full.json", "r") as file: #this is where it opens the json file but it is in read mode only.
@@ -48,8 +67,9 @@ def element_loader(element_input):
 
 def turning_off():
     time.sleep(1.5)
-    print(f"Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {green}")
-    today = datetime.datetime.now()
+    clear()
+    print(f"{Green}Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {RESET}")
+    today = datetime.now(pytz.utc)
     print(f'Current time: {today.time()}')
     print(f'Current date: {today.date()}')
     quit()
