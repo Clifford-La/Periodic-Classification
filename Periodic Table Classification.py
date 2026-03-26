@@ -45,7 +45,9 @@ def main():
         if element_input == '9': #user can end program key9
             turning_off()
         element, element_dict = element_loader(element_input) #gets the element and the whole dict from the json file
-        if element in element_dict:
+        if element not in element_dict:
+            print("This element has not been discoverd yet")
+        else:
             clear()
             print(f"{Green}{Bold}Element name:{RESET} {element["Name"]}{RESET}")
             print(f"{Green}{Bold}Symbol:{RESET} {element["Symbol"]}{RESET}")
@@ -63,13 +65,17 @@ def element_loader(element_input):
     for element in element_dict:
         if element['Name'] == element_input: #if i enter hydrogen then it will return the element hydrogen and the rest of the information from the json file
             return element, element_dict 
-
+        else:
+            element = ""
+            return element, element_dict
+        
 
 def turning_off():
     time.sleep(1.5)
     clear()
     print(f"{Green}Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {RESET}")
-    today = datetime.now(pytz.utc)
+    timezone = pytz.timezone("Australia/Sydney")
+    today = datetime.now()
     print(f'Current time: {today.time()}')
     print(f'Current date: {today.date()}')
     quit()
