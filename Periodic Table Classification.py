@@ -75,7 +75,7 @@ def turning_off():
     clear()
     print(f"{Green}Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {RESET}")
     timezone = pytz.timezone("Australia/Sydney")
-    today = datetime.now()
+    today = datetime.now(timezone)
     print(f'Current time: {today.time()}')
     print(f'Current date: {today.date()}')
     quit()
