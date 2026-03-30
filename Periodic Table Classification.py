@@ -32,6 +32,7 @@ def clear():
     os.system("clear")
 
 def main():
+    clear()
     loading("Loading")
     with tqdm(total=100) as pbar:
         for i in range(25):
@@ -74,10 +75,10 @@ def turning_off():
     time.sleep(1.5)
     clear()
     print(f"{Green}Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {RESET}")
-    timezone = pytz.timezone("Australia/Sydney")
-    today = datetime.now(timezone)
-    print(f'Current time: {today.time()}')
-    print(f'Current date: {today.date()}')
+    time_zone = pytz.timezone("Australia/Sydney")
+    today = datetime.now(time_zone)
+    print(f'{Blue}{Bold}Current time:{RESET} {today.time()}')
+    print(f'{Blue}{Bold}Current date:{RESET} {today.date()}')
     quit()
 
 def loading(load_screen):
