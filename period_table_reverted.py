@@ -47,6 +47,7 @@ def element_loader(element_input):
     for element in element_dict:
         if element['Name'] == element_input: #if i enter hydrogen then it will return the element hydrogen and the rest of the information from the json file
             return element, element_dict 
+        
 
 
 def turning_off():
