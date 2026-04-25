@@ -5,8 +5,8 @@
         "Atomic number": "1",
         "Atomic mass(u)": "1.008",
         "Protons": "1",
-        "Neutrons": 0,
-        "Electrons": 1
+        "Neutrons": "0",
+        "Electrons": "1"
     },
     {
         "Name": "Helium",

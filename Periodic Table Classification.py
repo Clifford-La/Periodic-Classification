@@ -42,7 +42,7 @@ def main():
     clear()
     
     while True:
-        element_input = input(f"{Light_blue}{Italics}Would you like to look for an element? If not then enter '9' to quit. {RESET}").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
+        element_input = input(f"Enter an element {Italics}{Light_green}NAME{RESET}, {Italics}{Light_green}SYMBOL{RESET}, or {Italics}{Light_green}ATOMIC NUMBER{RESET}.{RESET}{Light_blue} If not then enter '9' to QUIT. {RESET}").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
         if element_input == '9': #user can end program key9
             turning_off()
         try:
@@ -66,14 +66,18 @@ def element_loader(element_input):
         element_dict = json.load(file)
     for element in element_dict:
         if element['Name'] == element_input: #if i enter hydrogen then it will return the element hydrogen and the rest of the information from the json file
-            return element, element_dict 
+            return element, element_dict
+        elif element['Symbol'] == element_input:      #if i enter H then it will return the element hydrogen and the rest of the information from the json file
+            return element, element_dict
+        elif element['Atomic number'] == element_input: #if i enter 1 then it will return the element hydrogen and the rest of the information from the json file
+            return element, element_dict
 
         
 
 def turning_off():
     time.sleep(1.5)
     clear()
-    print(f"{Green}Periodic Table Classification out! Stay noble like the gases. 🧪 ⚛︎ {RESET}")
+    print(f"{Green}Stay noble like the gases. 🧪 ⚛︎ {RESET}")
     time_zone = pytz.timezone("Australia/Sydney")
     today = datetime.now(time_zone)
     print(f'{Blue}{Bold}Current time:{RESET} {today.time()}')
