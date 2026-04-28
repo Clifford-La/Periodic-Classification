@@ -1060,5 +1060,14 @@
         "Protons": "118",
         "Neutrons": "176",
         "Electrons": "118"
+    },
+    {
+        "Name": "Triple T",
+        "Symbol": "Ttt",
+        "Atomic number": "67",
+        "Atomic mass(u)": "5.721 x 10^28",
+        "Protons": "67",
+        "Neutrons": "5.721 x 10^28",
+        "Electrons": "67"
     }
 ]

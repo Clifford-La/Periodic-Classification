@@ -7,27 +7,17 @@ import pytz
 Black = "\033[0;30m"
 Red = "\033[0;31m"
 Green = "\033[0;32m"
-Brown = "\033[0;33m"
 Blue = "\033[0;34m"
 Purple = "\033[0;35m"
 Cyan = "\033[0;36m"
-Light_grey = "\033[0;37m"
-Dark_grey = "\033[1;30m"
-Light_red = "\033[1;31m"
 Light_green = "\033[1;32m"
 Yellow= "\033[1;33m"
 Light_blue = "\033[1;34m"
-Light_purple = "\033[1;35m"
-Light_cyan = "\033[1;36m"
-Light_white = "\033[1;37m"
 Bold = "\033[1m"
-Faint = "\033[2m"
 Italics = "\033[3m"
-Underline = "\033[4m"
-Blink = "\033[5m"
-Negative = "\033[7m"
 Crossed = "\033[9m"
 RESET = "\033[0m"
+
 def clear(): 
     os.system("clear")
 
@@ -45,6 +35,7 @@ def main():
         element_input = input(f"Enter an element {Italics}{Light_green}NAME{RESET}, {Italics}{Light_green}SYMBOL{RESET}, or {Italics}{Light_green}ATOMIC NUMBER{RESET}.{RESET}{Light_blue} If not then enter '9' to QUIT. {RESET}").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
         if element_input == '9': #user can end program key9
             turning_off()
+        breakpoint
         try:
             element, element_dict = element_loader(element_input) #gets the element and the whole dict from the json file
         except TypeError:
@@ -91,6 +82,6 @@ def loading(load_screen):
     for i in range(5):
         time.sleep(dots_delay_time)
         print(" . ", end="")
-        sys.stdout.flush()
+        sys.stdout.flush()#
 
 main()
