@@ -23,7 +23,7 @@ def clear():
 
 def main():
     clear()
-    loading("Loading")
+    loading(f"{Bold}{Italics}Loading{Black}")
     with tqdm(total=100) as pbar:
         for i in range(25):
             time.sleep(0.1)
@@ -32,8 +32,8 @@ def main():
     clear()
     
     while True:
-        element_input = input(f"Enter an element {Italics}{Light_green}NAME{RESET}, {Italics}{Light_green}SYMBOL{RESET}, or {Italics}{Light_green}ATOMIC NUMBER{RESET}.{RESET}{Light_blue} If not then enter '9' to QUIT. {RESET}").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
-        if element_input == '9': #user can end program key9
+        element_input = input(f"{RESET}Enter an element {Italics}{Light_green}NAME{RESET}, {Italics}{Light_green}SYMBOL{RESET}, or {Italics}{Light_green}ATOMIC NUMBER{RESET}.{RESET}{Light_blue} If not then enter 'Q' to QUIT. {RESET}").title() #ask the user for any element on the periodic table, '.title' capitalizes the first letter of the element
+        if element_input == 'Q': #user can end program key9
             turning_off()
         breakpoint
         try:
@@ -45,7 +45,7 @@ def main():
         print(f"{Green}{Bold}Element name:{RESET} {element["Name"]}{RESET}")
         print(f"{Green}{Bold}Symbol:{RESET} {element["Symbol"]}{RESET}")
         print(f"{Purple}{Bold}Atomic number:{RESET} {element["Atomic number"]}{RESET}")
-        print(f"{Purple}{Bold}Atomic mass({RESET}u{Purple}):{RESET} {element["Atomic mass(u)"]}{RESET}")
+        print(f"{Purple}{Bold}Atomic mass({RESET}u{Purple}{Bold}):{RESET} {element["Atomic mass(u)"]}{RESET}")
         print(f"{Cyan}{Bold}Protons:{RESET} {element["Protons"]}{RESET}")
         print(f"{Red}{Bold}Neutrons:{RESET} {element["Neutrons"]}{RESET}")
         print(f"{Yellow}{Bold}Electrons:{RESET} {element["Electrons"]}{RESET}")
