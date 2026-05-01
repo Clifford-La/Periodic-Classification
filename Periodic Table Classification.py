@@ -79,7 +79,7 @@ def loading(load_screen):
     print(load_screen, end="")
     dots_delay_time = 0.5
 
-    for i in range(5):
+    for dots in range(5):
         time.sleep(dots_delay_time)
         print(" . ", end="")
         sys.stdout.flush()#
