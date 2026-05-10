@@ -17,9 +17,9 @@ def clear():
 def main():
     loading("Loading")
     with tqdm(total=100) as pbar:
-        for i in range(1):
+        for i in range(25):
             time.sleep(0.1)
-            pbar.update(100)
+            pbar.update(4)
     print()
     clear()
     
